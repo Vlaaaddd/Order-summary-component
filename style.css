@@ -1,0 +1,162 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+img {
+  max-width: 350px;
+  border-radius: 10px 10px 0 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-height: 100%;
+  background-image: url("images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+  font-family: "Red Hat Display", sans-serif;
+}
+
+body p {
+  color: hsl(224, 23%, 55%);
+}
+
+h1 {
+  font-size: 20px;
+  color: hsl(223, 47%, 23%);
+  margin-bottom: 20px;
+  padding-top: 25px;
+  font-weight: 900;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: hsl(225, 100%, 98%);
+  margin: 20px auto;
+  max-width: 350px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px hsl(224, 23%, 55%);
+}
+
+.pret {
+  display: flex;
+  width: 280px;
+  height: 60px;
+  align-self: center;
+  background-color: hsl(225, 100%, 94%);
+  border-radius: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+.plan {
+  display: flex;
+}
+
+.annual-price {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.butoane {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#change-button {
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  color: hsl(245, 75%, 52%);
+  text-decoration: underline;
+}
+
+#change-button:hover {
+  color: hsl(245, 75%, 70%);
+  text-decoration: none;
+}
+
+#payment-button {
+  background-color: hsl(245, 75%, 52%);
+  width: 280px;
+  align-self: center;
+  height: 40px;
+  color: white;
+  font-family: inherit;
+  font-weight: 700;
+  border-radius: 7px;
+  font-size: 12px;
+}
+
+#payment-button:hover {
+  background-color: hsl(245, 75%, 70%);
+}
+
+#cancel-button {
+  color: hsl(224, 23%, 55%);
+  font-weight: 700;
+  font-family: inherit;
+  width: 85px;
+  align-self: center;
+}
+
+#cancel-button:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  display: inline-block;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.iconita {
+  background-color: hsl(224, 23%, 55%);
+  color: hsl(225, 100%, 94%);
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  padding: 5px;
+  align-self: center;
+}
+
+.descriere {
+  font-size: 13px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 20px;
+}
+
+#change-button {
+  align-self: center;
+}
